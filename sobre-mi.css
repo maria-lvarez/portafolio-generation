@@ -1,0 +1,126 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+  background: linear-gradient(180deg, rgba(191, 247, 238, 1) 0%, rgba(205, 182, 247, 1) 19%, rgba(139, 89, 167, 1) 43%, rgba(128, 69, 160, 1) 74%, rgba(255, 137, 7, 1) 100%);
+  background-repeat: no-repeat;
+/*height: 800px;*/
+}
+
+#nav-top-bar{
+    margin-top:25px;
+    color: rgb(25, 25, 207);
+    font-size:25px;
+  }
+
+#nav-top-bar:hover{
+      color: rgb(11, 146, 183);
+  }
+
+#cont-main{
+  flex-direction:row;
+  margin-top: 50px;
+  justify-content: center;
+}
+
+#titulo{
+  font-size: 70px;
+  color: rgb(243, 247, 247);
+  text-shadow: 2px 2px rgb(65, 31, 203, 0.2);
+  margin-top: 100px;
+}
+
+.texto-puesto{
+    color: #3b2be6;
+    text-align: justify;
+}
+
+.textofondo{
+    text-align: justify;
+    color: rgb(69, 54, 239);
+    font-size: 18px;
+}
+
+.cont{
+  margin-right: 15px;
+}
+#contactos-sobre{
+  position: relative;
+}
+
+#locket{
+  height: 600px;
+  width: max-content;
+}
+
+#nube-lock{
+  position: absolute;
+  margin-left: 200px;
+  height: 370px;
+  width: auto;
+  z-index: 10;
+  top: 500px;
+}
+#nube6{
+  margin-left: 10px;
+}
+
+#cont-habili{
+  margin: 15px;
+  justify-content: center;
+}
+#habilidades-tec{
+ margin-top: 200px;
+}
+
+#titulo-hatec{
+  font-size: 60px;
+  font-weight: bolder;
+  color: antiquewhite;
+  text-shadow: 2px 2px rgb(65, 31, 203, 0.2);
+  text-align:left;
+  margin-bottom: 15px;
+
+}
+.listas-hab{
+  list-style: none;
+  margin-top:50px;
+}
+
+.software{
+  margin-top: 50px;
+
+}
+
+#nube4{
+  height:300px;
+}
+
+
+#titulo-soft{
+  font-size: 60px;
+  font-weight: bolder;
+  color: antiquewhite;
+  text-shadow: 2px 2px rgb(65, 31, 203, 0.2);
+  margin-bottom: 25px;
+  text-align: right;
+}
+
+.list-i{
+  list-style:none;
+  font-size: 45px;
+  color: antiquewhite;
+  text-shadow: 2px 2px rgb(65, 31, 203, 0.2);
+  font-weight: bold;
+  margin-right: 30px;
+}
+
+.li-right{
+  text-align: right;
+}
+
+.li-left{
+  text-align: left;
+}

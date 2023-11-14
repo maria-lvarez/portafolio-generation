@@ -1,0 +1,72 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-color: rgb(27, 27, 177);
+}
+
+#nav-top-bar{
+    margin-top:25px;
+    color: rgb(25, 25, 207);
+    font-size:25px;
+  }
+
+#nav-top-bar:hover{
+      color: rgb(11, 146, 183);
+  }
+
+
+ #titulo{
+     margin-left: 60px;
+     font-size: 15vw;
+     color: rgba(11, 15, 70, 0.978)
+     /*text-shadow: 1px 1px rgba(55, 223, 249, 0.09);*/
+  
+ } 
+  
+
+.form-control{
+    border-color: rgb(57, 79, 241);
+    background-color: #f5deb300;
+    color: rgb(127, 217, 255);
+    box-shadow: 0px 0px 23px 9px rgba(55, 222, 247, 0.09);
+
+}
+
+.form-control:active{
+    background-color:transparent;
+}
+
+.form-label{
+    color: rgb(61, 117, 237);
+    background-color:transparent;
+}
+
+#btn-forms{
+    background-color: rgba(27, 98, 231, 0.572);
+    border-color: rgb(57, 79, 241);
+    box-shadow: 0px 0px 23px 9px rgba(55, 222, 247, 0.09);
+    color: rgb(7, 7, 93);
+    position: relative;
+}
+#cont-forms{
+    position: relative;
+}
+
+.form-control::placeholder{
+    color: rgb(61, 117, 237);
+}
+
+#estrella{
+    height:70px;
+}
+
+#luna{
+  align-self: self-end;
+  width: 100%;
+  position: absolute;
+  z-index: -1;
+
+}

@@ -1,0 +1,50 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+
+body{
+    margin: 0px;
+    height: 100vh;
+    background-image: url(../src/fondo-blob.png);
+    background-size:cover;
+    width: 100%;
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+
+#contenedor-yo{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+
+#circulo{
+  position: absolute;
+  z-index: 0;
+  margin-top: 15px;
+}
+
+#img-yo{
+    position: absolute;
+    height: 550px;
+    width: auto;
+    z-index: 1;
+}
+#img-marco{
+    height: 550px;
+    width: 550;
+    z-index: 1;
+}
+
+#nav-top-bar{
+  margin-top:25px;
+  color: rgb(25, 25, 207);
+  font-size:25px;
+}
+
+#nav-top-bar:hover{
+    color: rgb(11, 146, 183);
+}
