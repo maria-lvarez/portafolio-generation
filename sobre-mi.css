@@ -50,9 +50,38 @@ body{
   position: relative;
 }
 
-#locket{
+#lock{
+position: relative;
+perspective:1000px;
+}
+#locket-open{
   height: 40vw;
+ /* overflow: hidden;
+  transform-origin:left;
+  position: absolute;
+  z-index: 1;*/
+  transition:all.5s;
+  transform-origin: left;
   width: max-content;
+  position: absolute
+}
+/*#locked-closed::before,locked-closed::after{
+  position: absolute;
+  left: 22.5px;
+}*/
+
+#lock:hover img{
+transform:rotateY(-90deg);
+}
+
+#locket-closed{
+  position: absolute;
+  display: flex;
+  height: 30vw;
+  width: max-content;
+  align-items: center;
+  justify-content: center;
+  z-index: -1;
 }
 
 #nube-lock{
@@ -63,6 +92,7 @@ body{
   z-index: 10;
   top: 35vw;
 }
+
 #nube6{
   margin-left: 0.1vw;
 }
@@ -72,11 +102,9 @@ body{
 }
 
 #habilidades-tec{
-  display: flex;
  margin-top: 4vw;
 }
 #habiliades-soft{
-  display: flex;
   margin-top: 10vw;
 }
 
@@ -102,6 +130,11 @@ body{
   height:15vw;
 }
 
+#img-centro{
+  display: flex;
+
+}
+
 #titulo-soft{
   font-size: 5vw;
   font-weight: bolder;
@@ -121,5 +154,6 @@ body{
 }
 
 .li-right{
-  justify-content: flex-end;
+  display: flex;
+ justify-content: flex-end;
 }
