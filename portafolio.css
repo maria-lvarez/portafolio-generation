@@ -4,7 +4,7 @@
 }
 
 body{
-    background: linear-gradient(180deg, rgba(191, 247, 238, 1) 0%, rgb(77, 144, 210) 19%, rgb(43, 51, 165) 43%, rgb(17, 19, 143),rgb(239, 234, 208)100%);
+    background: linear-gradient(180deg, rgba(191, 247, 238, 1) 0%, rgb(77, 144, 210) 19%, rgb(43, 51, 165) 43%, rgb(17, 19, 143),rgb(239, 234, 208) 100%);
     background-repeat: no-repeat;
 }
 
@@ -19,6 +19,7 @@ body{
     justify-content: left;
     margin-left: 2vw;
     font-size:15vw;
+    color: rgb(138, 215, 215);
  } 
 
 #nav-top-bar:hover{
@@ -29,24 +30,46 @@ body{
     margin-top: 5vw;
     display: flex;
     justify-content: center;
+    
   }
+  .texto-cuerpo{
+    background: rgba( 255, 255, 255, 0.15 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 1px );
+  }
+  #btn-web{
+    background-color:transparent;
+    color: rgb(19, 19, 143);
+  }
+
   #subti1{
     display: flex;
     justify-content: center;
     font-size: 4vw;
+    color: rgb(127, 189, 255);
   }
-.card-body{
-    background-color: beige;
+  #subti2{
+    display: flex;
+    justify-content: center;
+    margin-top: 5vw;
+    font-size: 4vw;
+    color: rgb(127, 189, 255);
+  }
 
-}
+  #peces1{
+    position: absolute;
+    z-index: 1;
+    align-items: center;
+  }
 
-#proycetos-ti{
-    background: rgba( 255, 255, 255, 0.15 );
-    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
-    backdrop-filter: blur( 2.5px );
-    -webkit-backdrop-filter: blur( 2.5px );
-    border-radius: 10px;  
-}
+  #peces2{
+    position: absolute;
+    margin-left: 20vw;
+    margin-top: 1vw;
+    z-index: -1;
+    height: 50%;
+  }
+
 #carousel-producto .carousel-caption{
     background: rgba( 255, 255, 255, 0.15 );
     box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
@@ -56,7 +79,7 @@ body{
     }
     
     #carousel-moviliario .carousel-caption{
-        background: rgba( 255, 255, 255, 0.15 );
+    background: rgba( 255, 255, 255, 0.15 );
     box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
     backdrop-filter: blur( 1px );
     -webkit-backdrop-filter: blur( 1px );
@@ -64,9 +87,19 @@ body{
     }
     
     #carousel-medios-digitales .carousel-caption{
-        background: rgba( 255, 255, 255, 0.15 );
+    background: rgba( 255, 255, 255, 0.15 );
     box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
     backdrop-filter: blur( 1px );
     -webkit-backdrop-filter: blur( 1px );
     border-radius: 10px;
     }
+
+    #carousel-botom{
+        height: 8vw;
+        margin-top: 2vw;
+        margin-bottom: 1vw;
+    }
+
+  #carousel-botom.img{
+    width:fit-content;
+  }

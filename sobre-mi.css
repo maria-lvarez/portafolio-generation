@@ -26,10 +26,10 @@ body{
 }
 
 #titulo{
-  font-size: 70px;
+  font-size: 8vw;
   color: rgb(243, 247, 247);
   text-shadow: 2px 2px rgb(65, 31, 203, 0.2);
-  margin-top: 100px;
+  margin-top: 4vw;
 }
 
 .texto-puesto{
@@ -51,76 +51,75 @@ body{
 }
 
 #locket{
-  height: 600px;
+  height: 40vw;
   width: max-content;
 }
 
 #nube-lock{
   position: absolute;
-  margin-left: 200px;
-  height: 370px;
+  margin-left: 10vw;
+  height: 25vw;
   width: auto;
   z-index: 10;
-  top: 500px;
+  top: 35vw;
 }
 #nube6{
-  margin-left: 10px;
+  margin-left: 0.1vw;
 }
 
 #cont-habili{
-  margin: 15px;
   justify-content: center;
 }
+
 #habilidades-tec{
- margin-top: 200px;
+  display: flex;
+ margin-top: 4vw;
+}
+#habiliades-soft{
+  display: flex;
+  margin-top: 10vw;
 }
 
 #titulo-hatec{
-  font-size: 60px;
+  font-size: 5vw;
   font-weight: bolder;
   color: antiquewhite;
   text-shadow: 2px 2px rgb(65, 31, 203, 0.2);
   text-align:left;
-  margin-bottom: 15px;
+  margin-bottom: 2vw;
 
 }
 .listas-hab{
   list-style: none;
-  margin-top:50px;
-}
-
-.software{
-  margin-top: 50px;
-
+  margin-top:2vw;
 }
 
 #nube4{
-  height:300px;
+  height:20vw;
 }
 
+#nube1{
+  height:15vw;
+}
 
 #titulo-soft{
-  font-size: 60px;
+  font-size: 5vw;
   font-weight: bolder;
   color: antiquewhite;
   text-shadow: 2px 2px rgb(65, 31, 203, 0.2);
-  margin-bottom: 25px;
+  margin-bottom: 2vw;
   text-align: right;
 }
 
 .list-i{
   list-style:none;
-  font-size: 45px;
+  font-size: 2.5vw;
+  margin-right: 2vw;
   color: antiquewhite;
   text-shadow: 2px 2px rgb(65, 31, 203, 0.2);
   font-weight: bold;
-  margin-right: 30px;
 }
 
 .li-right{
-  text-align: right;
-}
-
-.li-left{
-  text-align: left;
+  justify-content: flex-end;
 }

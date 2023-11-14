@@ -7,8 +7,8 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <link rel="stylesheet" href="./portafolio.css">   
   </head>
-  <body class="container-fluid">
-    <div id="nav-top">
+  <body class="container">
+    <nav id="nav-top">
         <nav class="navbar navbar-expand-lg" id="nav-top-bar">
           <div class="container-fluid">
            <!-- <a class="navbar-brand" href="#">Navbar</a>-->
@@ -34,47 +34,46 @@
           </div>
         </nav>
     
-      </div>
-
+    </nav>
       <h1 id="titulo">Portafolio</h1>
+      <img class="img-fluid" id="peces1" src="./src/peces.png">
 
       <h1 id="subti1">Desarrollo web</h1>
-      <div id="galeria1" class="container">
-
-        <div id="carouselExampleIndicators" class="carousel slide  carousel-top">
+      <section id="galeria1" class="container">
+        <div id="carouselExampleIndicators" class="carousel slide cols-sm-1  carousel-top">
           <div class="carousel-indicators">
             <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
             <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
             <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
           </div>
-          <div class="carousel-inner">
+          <div id="carousel-web" class="carousel-inner">
             <div class="carousel-item active">
               <div class="card" style="width: 45vw;">
                 <img src="./src/gran-bazar-placeholder.png" class="d-block w-100" alt="...">
-                <div class="card-body">
+                <div class="card-body texto-cuerpo">
                   <h5 class="card-title">El gran Bazar</h5>
                   <p class="card-text">Página web de e-commerce El gran bazar.</p>
-                  <a href="#" class="btn btn-primary">visitar</a>
+                  <a href="#" class="btn btn-web">visitar</a>
                 </div>
               </div>
             </div>
             <div class="carousel-item">
               <div class="card" style="width: 45vw;">
                 <img src="./src/clon-google.png" class="d-block w-100" alt="...">
-                <div class="card-body">
+                <div class="card-body texto-cuerpo">
                   <h5 class="card-title">clon de google</h5>
                   <p class="card-text">Réplica de google.</p>
-                  <a href="#" class="btn btn-primary">visitar</a>
+                  <a href="#" class="btn btn-web">visitar</a>
                 </div>
               </div>
             </div>
             <div class="carousel-item">
               <div class="card" style="width: 45vw;">
                 <img src="./src/centro-com.png" class="d-block w-100" alt="...">
-                <div class="card-body">
+                <div class="card-body texto-cuerpo">
                   <h5 class="card-title">Centro comunitario</h5>
                   <p class="card-text">Página web de centro comunitario ramito de violetas.</p>
-                  <a href="#" class="btn btn-primary">visitar</a>
+                  <a href="#" class="btn btn-web">visitar</a>
                 </div>
               </div>
             </div>
@@ -88,10 +87,17 @@
             <span class="visually-hidden">Next</span>
           </button>
         </div>
-      </div>
+      </section>
       
+      <picture>
+        <img  class="img-fluid" id="mimi-buzo" src="" alt="mimi-buzo" >
+        <h1 id="subti1">aqui ira mimi buzo</h1>
+      </picture>
+
+      <h1 id="subti2">Diseño Industrial</h1>
+
       <section class="container">
-        <div class="row row-cols-3 row-cols-lg-3 mb-0 g-4 ">
+        <div id="carousel-botom" class="row row-cols-lg-3  cols-sm-1 mb-0 g-4 ">
       <!--carousel 1-->
             <div id="carousel-producto" class="carousel carousel-dark slide">
                 <div class="carousel-indicators">
@@ -99,7 +105,6 @@
                   <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
                   <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
                   <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="3" aria-label="Slide 4"></button>
-                  <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="4" aria-label="Slide 5"></button>
                 </div>
 
                 <div class="carousel-inner col-4 rounded-2">
@@ -112,9 +117,8 @@
                     </div>
                   </div>
    
-        
                   <div class="carousel-item" data-bs-interval="2000">
-                    <img src="imagenes/proyecto1.JPG" class="d-block w-100" alt="bici">
+                    <img src="./src/proyecto1.JPG" class="d-block w-100" alt="bici">
                     <div class="carousel-caption d-none d-md-block ">
                       <div class="carousel-svg">
                       <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#6610f2" class="bi bi-trophy-fill" viewBox="0 0 16 16">
@@ -128,7 +132,7 @@
                   </div>
      
                   <div class="carousel-item">
-                    <img src="imagenes/Muci kit alt.png" class="d-block w-100" alt="muci">
+                    <img src="./src/Muci kit alt.png" class="d-block w-100" alt="muci">
                     <div class="carousel-caption d-none d-md-block">
                       <h5>MUCI</h5>
                       <p class="descripcion-carousel">Receptor de flujo menstrual sustentable.</p>
@@ -136,7 +140,7 @@
                   </div>
 
                   <div class="carousel-item">
-                    <img src="imagenes/muci esteri fotogra.png" class="d-block w-100" alt="muci">
+                    <img src="./src/muci esteri fotogra.png" class="d-block w-100" alt="muci">
                     <div class="carousel-caption d-none d-md-block d-flex">
                       <div class="carousel-svg">
                       <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#6610f2" class="bi bi-trophy-fill" viewBox="0 0 16 16">
@@ -145,13 +149,6 @@
                       <h5>MUCI</h5>
                       </div>
                       <p class="descripcion-carousel">Premios categoria estudiante: Nacional de diseño (Diseña México 2020)/ Finalista A diseño 2020./ Socialab- Mujeres de cambio 2020</p>
-                    </div>
-                  </div>
-
-                  <div class="carousel-item">
-                    <img src="imagenes/muci prueba keyshot 2.png" class="d-block w-100" alt="muci">
-                    <div class="carousel-caption d-none d-md-block">
-                      <h5>MUCI</h5>
                     </div>
                   </div>
 
@@ -171,14 +168,12 @@
                 <div class="carousel-indicators">
                   <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
                   <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                  <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
-                  <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="3" aria-label="Slide 4"></button>
                 </div>
 
                 <div class="carousel-inner col-4 rounded-2">
 
                   <div class="carousel-item active" data-bs-interval="10000">
-                    <img src="imagenes/kaleidos2.png" class="d-block w-100" alt="kaleidos">
+                    <img src="./src/kaleidos3.png" class="d-block" alt="kaleidos">
                     <div class="carousel-caption d-none d-md-block">
                       <h5>Kaleidos Van</h5>
                       <p class="descripcion-carousel">Moviliario transformable planteado para aúla movil.</p>
@@ -186,7 +181,7 @@
                   </div>
 
                   <div class="carousel-item" data-bs-interval="2000">
-                    <img src="imagenes/kaleidos3.png" class="d-block w-100" alt="kaleidos">
+                    <img src="./src/kaleidos1.png" class="d-block w-100" alt="kaleidos">
                     <div class="carousel-caption d-none d-md-block">
                       <div class="carousel-svg">
                       <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#6610f2" class="bi bi-trophy-fill" viewBox="0 0 16 16">
@@ -198,14 +193,6 @@
                     </div>
                   </div>
 
-                  <div class="carousel-item">
-                    <img src="imagenes/kaleidos1.png" class="d-block w-100" alt="kaleidos">
-                    <div class="carousel-caption d-none d-md-block">
-                      <h5>Kaleidos Van</h5>
-                    </div>
-                  </div>
-
-              
                 </div>
                 <button class="carousel-control-prev" type="button" data-bs-target="#carousel-moviliario" data-bs-slide="prev">
                   <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -226,13 +213,12 @@
               <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="3" aria-label="Slide 4"></button>
               <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="4" aria-label="Slide 5"></button>
               <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="5" aria-label="Slide 6"></button>
-              <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="6" aria-label="Slide 7"></button>
             </div>
 
             <div class="carousel-inner col-4 rounded-2">
 
               <div class="carousel-item active" data-bs-interval="10000">
-                <img src="imagenes/spice2.png" class="d-block w-100" alt="bici">
+                <img src="./src/spice2.png" class="d-block w-100" alt="bici">
                 <div class="carousel-caption d-none d-md-block">
                   <h5>Spice & Rust</h5>
                   <p>Especiero conceptual steampunk.</p>
@@ -240,14 +226,14 @@
               </div>
 
               <div class="carousel-item" data-bs-interval="2000">
-                <img src="imagenes/especier1.PNG" class="d-block w-100" alt="bici">
+                <img src="./src/especier1.PNG" class="d-block w-100" alt="bici">
                 <div class="carousel-caption d-none d-md-block">
                   <h5>Spice & Rust</h5>
                 </div>
               </div>
 
               <div class="carousel-item">
-                <img src="imagenes/clock.PNG" class="d-block w-100" alt="muci">
+                <img src="./src/reloj.png" class="d-block w-100" alt="muci">
                 <div class="carousel-caption d-none d-md-block">
                   <h5>Astral</h5>
                   <p>Reloj inspirado por las fases lunares.</p>
@@ -255,19 +241,14 @@
               </div>
 
               <div class="carousel-item">
-                <img src="imagenes/reloj1.png" class="d-block w-100" alt="muci">
+                <img src="./src/reloj1.png" class="d-block w-100" alt="muci">
                 <div class="carousel-caption d-none d-md-block">
                   <h5>Astral</h5>
                 </div>
               </div>
-              
+            
               <div class="carousel-item">
-                <img src="imagenes/reloj.png" class="d-block w-100" alt="muci">
-              
-              </div>
-
-              <div class="carousel-item">
-                <img src="imagenes/batidora2.png" class="d-block w-100" alt="muci">
+                <img src="./src/batidora2.png" class="d-block w-100" alt="muci">
                 <div class="carousel-caption d-none d-md-block">
                   <h5>Hop</h5>
                   <p>Batidora inspirada en la forma de un conejo.</p>
@@ -275,7 +256,7 @@
               </div>
 
               <div class="carousel-item">
-                <img src="imagenes/batidora.jpg" class="d-block w-100" alt="muci">
+                <img src="./src/batidora.jpg" class="d-block w-100" alt="muci">
                 <div class="carousel-caption d-none d-md-block">
                   <h5>Hop</h5>
                 </div>
@@ -294,12 +275,8 @@
 
 
            </div>
-    </section>   
-
-    
-       
-
-    <h1>Hello, world!</h1>
+       <img class="img-fluid" id="peces2" src="./src/peces.png">
+      </section>   
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
   </body>
 </html>
