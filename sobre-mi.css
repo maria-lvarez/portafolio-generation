@@ -93,6 +93,9 @@ transform:rotateY(-90deg);
   top: 35vw;
 }
 
+#mimi-avion{
+  height: 45vw;
+}
 #nube6{
   margin-left: 0.1vw;
 }
@@ -102,10 +105,11 @@ transform:rotateY(-90deg);
 }
 
 #habilidades-tec{
- margin-top: 4vw;
+ margin-top: 18vw;
 }
+
 #habiliades-soft{
-  margin-top: 10vw;
+  margin-top: 5vw;
 }
 
 #titulo-hatec{
@@ -124,10 +128,16 @@ transform:rotateY(-90deg);
 
 #nube4{
   height:20vw;
+  display: flex;
+  left: 52vw;
+  top: 90vw;
+  position: absolute;
+  z-index: -1;
 }
 
 #nube1{
   height:15vw;
+  
 }
 
 #img-centro{

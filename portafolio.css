@@ -4,8 +4,9 @@
 }
 
 body{
-    background: linear-gradient(180deg, rgba(191, 247, 238, 1) 0%, rgb(77, 144, 210) 19%, rgb(43, 51, 165) 43%, rgb(17, 19, 143),rgb(239, 234, 208) 100%);
+    background: linear-gradient(180deg, rgba(191, 247, 238, 1) 0%, rgb(77, 144, 210) 19%, rgb(43, 51, 165) 43%, rgb(17, 19, 143)74%,rgb(239, 234, 208) 100%);
     background-repeat: no-repeat;
+    height: 160vw;
 }
 
 #nav-top-bar{
@@ -30,13 +31,25 @@ body{
     margin-top: 5vw;
     display: flex;
     justify-content: center;
+    position: relative;
     
   }
+
+  #mimi-buzo{
+    height: 35vw;
+    display: flex;
+    left: 72vw;
+    top: 40vw;
+    position: absolute;
+    z-index: 1;
+   }
+
   .texto-cuerpo{
     background: rgba( 255, 255, 255, 0.15 );
     box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
     backdrop-filter: blur( 1px );
   }
+
   #btn-web{
     background-color:transparent;
     color: rgb(19, 19, 143);
