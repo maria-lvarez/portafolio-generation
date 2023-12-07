@@ -36,6 +36,12 @@
         </nav>
     
     </nav>
+
+    <section class="container-fluid1 p-4">
+      <div class="alert alert-danger fade show" style="display:none;" role="alert" id="alertValidaciones">
+          <p id="alertValidacionesTexto"></p>
+    </section>
+
     <h1 id="titulo">Contactame</h1>
 
     <section class="container">
@@ -60,19 +66,21 @@
         <label for="exampleFormControlTextarea1" class="form-label">Mensaje</label>
         <textarea class="form-control" id="form-mensaje" rows="3" placeholder="Mensaje"></textarea>
       </div>  
-      <button  id="btn-forms" type="button" class="btn mb-3 ms-3">Enviar</button>
+      <button id="btn-forms" type="button" class="btn enviarbtn mb-3 ms-3">Enviar</button>
 
       <img class="img-fluid" id="estrella" src="./src/star.png">
     
     </div><!--cierra contenedor forms--> 
     
-    <div class="col-lg">
+    <div class="col-lg-5">
       <img class="img-fluid" id="mimi-astronauta" src="./src/mumu-espacio.png">
     </div>
 
 </div><!--cierra div row-->
     </section> <!--cierra div container-->
 
+
+    <script src="./contacto.js" defer></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
   </body>
 </html>
