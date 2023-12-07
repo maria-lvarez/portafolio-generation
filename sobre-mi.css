@@ -9,13 +9,14 @@ body{
 /*height: 800px;*/
 }
 
-#nav-top-bar{
+#nav-top-bar li a{
     margin-top:25px;
+    margin-right: 15px;
     color: rgb(25, 25, 207);
-    font-size:25px;
+    font-size:40px;
   }
 
-#nav-top-bar:hover{
+#nav-top-bar li a:hover{
       color: rgb(11, 146, 183);
   }
 
@@ -49,28 +50,57 @@ body{
 #contactos-sobre{
   position: relative;
 }
+/*#lock{
+  position: relative;
+  perspective:1000px;
+}*/
 
 #lock{
 position: relative;
-perspective:1000px;
+transform-style: preserve-3d;
+perspective:2500px;
 }
+
+/*
 #locket-open{
   height: 40vw;
  /* overflow: hidden;
   transform-origin:left;
   position: absolute;
-  z-index: 1;*/
-  transition:all.5s;
+  z-index: 1;
+  transition:.5s;
   transform-origin: left;
   width: max-content;
   position: absolute
+}*/
+
+#locket-open{
+  height: 40vw;
+  overflow: hidden;
+  transform-origin:left;
+  position: absolute;
+  z-index: 1;
+  transition:.5s;
+  width: max-content;
 }
+
+/*#locket-open::before, #locket-open::after{
+  position: absolute;
+  left: 20vw;
+}*/
+
 /*#locked-closed::before,locked-closed::after{
   position: absolute;
   left: 22.5px;
 }*/
+/*#locket-open::before{
+  top: 25px;
+}
+#locket-open::after{
+  top: 155px;
+}*/
 
-#lock:hover img{
+#lock:hover #locket-open{
 transform:rotateY(-90deg);
 }
 
@@ -79,14 +109,26 @@ transform:rotateY(-90deg);
   display: flex;
   height: 30vw;
   width: max-content;
-  align-items: center;
-  justify-content: center;
+ /* align-items: center;
+  justify-content: center;*/
+  right: 5vw;
+  top: 9vw;
   z-index: -1;
 }
 
+/*#locket-closed{
+  position: absolute;
+  display: flex;
+  height: 30vw;
+  width: max-content;
+  align-items: center;
+  justify-content: center;
+  z-index: -1;
+}*/
+
 #nube-lock{
   position: absolute;
-  margin-left: 10vw;
+  left: 15vw;
   height: 25vw;
   width: auto;
   z-index: 10;
@@ -98,6 +140,13 @@ transform:rotateY(-90deg);
 }
 #nube6{
   margin-left: 0.1vw;
+}
+#nube3{
+  position: absolute;
+  height: 25vw;
+  left: 10vw;
+  top: 105vw;
+  z-index: -1;
 }
 
 #cont-habili{
@@ -166,4 +215,13 @@ transform:rotateY(-90deg);
 .li-right{
   display: flex;
  justify-content: flex-end;
+}
+/* animacion mimi*/
+#mimi-avion{
+  -webkit-animation: volar 1s infinite  alternate;
+  animation: volar 1s infinite  alternate;
+}
+@keyframes volar {
+  0% { transform: translateY(0); }
+  100% { transform: translateY(-10px); }
 }

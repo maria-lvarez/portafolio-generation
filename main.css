@@ -39,12 +39,22 @@ body{
     z-index: 1;
 }
 
-#nav-top-bar{
+#nav-top-bar li a{
   margin-top:25px;
-  color: rgb(25, 25, 207);
-  font-size:25px;
+  margin-right: 15px;
+  color: rgb(80, 80, 202);
+  font-size:40px;
 }
 
-#nav-top-bar:hover{
+#nav-top-bar li a:hover{
     color: rgb(11, 146, 183);
 }
+
+/* animacion mimi*/
+#img-yo{
+    animation: flotar 1s infinite  alternate;
+  }
+  @keyframes flotar {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(-8px); }
+  }
