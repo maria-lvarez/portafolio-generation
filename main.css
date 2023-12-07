@@ -12,8 +12,15 @@ body{
     width: 100%;
     background-repeat: no-repeat;
     overflow: hidden;
+    animation: fadeInAnimation ease 3s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
 }
 
+@keyframes fadeInAnimation{
+  0%{opacity: 0;}
+  100%{opacity: 1;}
+}
 #contenedor-yo{
     display: flex;
     justify-content: center;
@@ -52,7 +59,7 @@ body{
 
 /* animacion mimi*/
 #img-yo{
-    animation: flotar 1s infinite  alternate;
+    animation: flotar 2.5s infinite  alternate;
   }
   @keyframes flotar {
     0% { transform: translateY(0); }

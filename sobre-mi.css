@@ -6,7 +6,14 @@
 body{
   background: linear-gradient(180deg, rgba(191, 247, 238, 1) 0%, rgba(205, 182, 247, 1) 19%, rgba(139, 89, 167, 1) 43%, rgba(128, 69, 160, 1) 74%, rgba(255, 137, 7, 1) 100%);
   background-repeat: no-repeat;
+  animation: fadeInAnimation ease 3s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
 /*height: 800px;*/
+}
+@keyframes fadeInAnimation{
+  0%{opacity: 0;}
+  100%{opacity: 1;}
 }
 
 #nav-top-bar li a{
@@ -225,3 +232,4 @@ transform:rotateY(-90deg);
   0% { transform: translateY(0); }
   100% { transform: translateY(-10px); }
 }
+
